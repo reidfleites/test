@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color:black;
+        margin:0px;
+        margin-right:20px;
+    }
+    #section-1{
+        display:flex;
+        justify-content:space-between;
+       
+        
+
+    }
+    .flex{
+        display:flex;
+        justify-content:center;
+        
+    }
+    #end{
+        display:flex;
+        justify-content: space-around;
+    }
+    #end a{
+        text-decoration: none;
+    }
+    #section-2{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom:300px;
+       
+     }
+    #section-3{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-bottom:300px;
+        }
+        #section-4{
+        display: flex;
+        
+        margin-bottom:300px;
+        }
+    
+   
+
+    div{
+        margin:1px;
+        margin-bottom:50px;
+     
+        
+    }
+    #element-2{
+        text-align: center;
+        flex:1;
+        
+
+        
+    }
+    #element-4{
+        flex:1;
+        
+    }
+    #element-5{
+        flex:2;
+        margin-bottom: 0px;
+    }
+    #element-6{
+        flex:1;
+    }
+    #element-7{
+        flex:1;
+        border:3px solid yellow;
+        border-radius: 20px;
+    }
+    
+    #recht-element{
+        flex:1;
+        background-color: lightslategray;
+        text-align: center;   
+        
+    }
+    #link,#center,#recht{
+       
+        border:3px solid yellow;
+        border-radius: 20px;
+        text-align: center;
+        
+    }
+
+    .texto{
+        margin: 10px;
+        padding:10px;
+        flex:1;
+        
+    }
+    .foto{
+        width:207px;
+        height:228px;
+        margin:10px;
+        padding:10px;
+        margin:auto;
+     }
+     .foto:hover{
+         width:180px;
+         height:208px;
+     }
+    #logo{
+        width:80px;
+        height:61px;
+        margin-top: 15px;
+        margin-left:20px;
+    }
+    .nav{
+        list-style-type: none;
+        margin-right:20px;
+        
+    }
+    .nav li{
+        display:inline-block;
+        padding:20px;
+        border-bottom:3px solid rgba(12, 9, 9, 0.1);
+        
+       
+    }
+    .nav li:hover{
+       
+       border-bottom:3px solid yellow;
+    }
+    .nav li:hover> a{
+       color:yellow;
+       
+    }
+    .nav li a{
+        text-transform: uppercase;
+        color:blue;
+        font: size 80;
+        text-decoration: none;
+
+
+    }
+    
+    h2{
+        color:blue;
+        text-align: center;
+        text-transform: uppercase;
+        font-size:25px;
+    }
+    .recht-element{
+        flex:2;
+    }
+    #image1{
+        width:100%;
+        height:520px;
+        border-radius:20px;
+        
+
+    }
+    #image1:hover{
+        width: 92%;
+        height: 470px;
+        border-radius:20px;
+        margin-left: 30px;
+
+    }
+
+    h3{
+        margin:0px;
+        color:#0000ff;
+    }
+    h4{
+        color:#ffff00;
+        text-align: center;
+    }
+    p{
+        padding: 10px;
+        color:yellow;
+    }
+    #form-item{
+        margin:20px;
+        width:200px;
+        height:50px;
+        border-radius: 20px;
+        color:blue;
+        font-size:20px;
+        background-color:rgb(255, 255,0)
+    }
+    #form-item:hover{
+        width:170px;
+        height:45px;
+    }
+    #form-item3{
+        margin:20px;
+        width:500px;
+        height:50px;
+        border-radius: 20px;
+        color:blue;
+        font-size:20px;
+        background-color:yellow;
+    }
+    #form-item3:hover{
+        width:450px;
+        height:45px;
+    }
+    #form-item4{
+        margin:20px;
+        width:100px;
+        height:50px;
+        color:yellow;
+        font-size:20px;
+        background-color:blue;
+        border-radius:5px;
+       
+        
+    }
+    #form-item4:hover{
+        width:90px;
+        height:45px;
+        font-size:14px;
+        border-radius:5px;
+    }
+    
+   #section-u{
+       display: flex;
+       margin-bottom:300px;
+      
+   }
+   #l,#c,#r{
+       flex:1;
+   }
+   
+   
+   #image-group{
+       width:100%;
+       height:300px;
+       border-radius:20px;
+   }
+   #image-group:hover{
+       width:90%;
+       height:270px;
+       border-radius:20px;
+       padding-left:10px;
+   }
+   #end{
+       border-top: 1px solid yellow;
+       margin-left: 20px;
+   }
+   .nav li:nth-child(1){
+            border-bottom: 3px solid yellow;
+        }
+  #marca{
+      color:yellow;
+  }
+  #l{
+      margin-left:20px;
+  }
+</style>
+</head>
+
+<body>
+ <div id="section-1">
+     <div id="element-1">
+        <img id="logo" src="image/faaee666-3c13-4471-a1c8-aff9de29e952_200x200(1).png" alt="logo">
+     </div>
+     
+     <div id="element-3">
+        <ul class="nav">
+            <li><a id="marca"href="project.html">Home</a></li>
+            <li><a href="">Projekte</a></li>
+            <li><a href="kontakts.html">Kontakts</a></li> 
+            <li><a href="überuns.html">Überuns</a></li>
+        </ul>
+     </div>
+ </div> 
+ 
+
+ <div id="section-2">
+    <div id="element-4">
+        <h2> Wir entwickeln moderne <br>Websiten und Apps.</h2>
+        <h4>
+            Mit einer moderne website <br>
+            machen wir Ihr Unternehmen <br>produktiver und effizienter...
+        </h4>
+      
+    </div>
+     <div id="element-5">
+       <img id="image1" src="image/finger-pointing-at-javascript-code.jpg" alt="Programierer">
+    </div>
+   
+    </div>
+
+    <div id="section-u">
+        <div id="l">
+            <img id="image-group"src="image/designer-picking-colors-for-website.jpg" alt="designer picking color">
+        </div>
+        <div id="c">
+            <h2>Wir machen Kreatives<br>Design</h2>
+            <h4>Damit unseren Design  Ihre Kunden angezogen werden.</h4>
+        </div>
+        <div id="r">
+            <img id="image-group"src="image/planning-design-being-creative.jpg" alt="planing-design">
+        </div>
+     </div>
+  
+    <div><h2>Unser Team</h2></div>
+  <div id="section-3">
+      <div id="link">
+          <div class="flex3">
+              <div class="foto"><img src="image/programierer.jpg"
+                alt="grafikerdesigner"></div>
+              <div class="texto"><h3>Anna</h3><p> Absolvent der Informatik.<br>
+                Specialist in HTML,CSS und Javascript.<br>Mit mehr als 10 Jahren Erfahrung in der
+                <br>Webentwicklung
+                 </p></div>
+
+          </div>
+        
+    </div>
+    <div id="center">
+        <div class="flex3">
+            <div class="foto"><img src="image/ich.jpg"
+            alt="programierer"></div>
+            <div class="texto"><h3>Reiner</h3><p> Absolvent der Computer-Sciencie.<br>
+                Specialist in Java,Javascript und C#.<br>Mit mehr als 3 Jahren Erfahrung in der<br>
+                Programierung
+                 </p></div>
+
+        </div>
+      
+  </div>      
+     <div id="recht">
+    <div class="flex3">
+        <div class="foto"><img src="image/designer.jpg"
+          alt="designer"></div>
+          <div class="texto"><h3>Liset</h3><p> Absolvent der Grafikdesigns.<br>
+            Specialist in HTML,CSS und Photoshop.<br>Mit mehr als 5 Jahren Erfahrung im
+            <br>Webdesign
+             </p></div>
+
+    </div>
+  
+</div>
+  </div>
+  <div id="section-4">
+      <div id="element-6"><h2>Wir Sind immer da</h2><h4>Screiben Sie uns eine Nachrichten un wie melden uns
+          schnellmöglisch bei Ihnen Züruck!
+      </h4></div>
+      <div id="element-7">
+        <form action="">
+            <input id="form-item"type="text" placeholder="Name*">
+            <input id="form-item"type="text" placeholder="Nachname*"><br>
+            <input id="form-item3" type="text"placeholder="Email*"><br>
+            <input id="form-item3"type="text"placeholder="Telefonnummer"><br>
+            <textarea id="form-item3"> Grund der Kontakaufnahme*</textarea><br>
+            <input id="form-item4" type="submit" value="Absenden!">
+
+        </form>
+      </div>
+      
+  </div>
+  <div id="end">
+      <div>
+          <h4>
+              <a href=""><h4>Impressum</h4></a>
+          </h4>
+      </div>
+      <div>
+    <a href=""><h4>2021 Datenschutz Erklärung</h4></a> 
+    </div>
+</div>
+</body>
+</html>
